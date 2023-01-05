@@ -22,7 +22,7 @@
 
 .section {
 
-    margin-top: 130px;
+    margin-top: 50px;
     text-align: center;
     padding: 130px 155px;
     background-color: #FFF8F3;
@@ -89,7 +89,6 @@
 .banner-title {
     font-weight: 700;
     font-size: 85px;
-    margin-bottom: 20px;
     margin-bottom: 30px;
 }
 
