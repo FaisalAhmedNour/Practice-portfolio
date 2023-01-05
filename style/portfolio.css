@@ -38,7 +38,7 @@
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    margin: 50px 225px;
+    padding: 50px 225px;
 }
 
 .nav-tittle {
@@ -110,6 +110,10 @@
     width: 160px;
     height: 64px;
     margin-left: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
 }
 
 .banner img {
@@ -235,12 +239,10 @@
     padding: 18px;
 }
 
-/* .summary-button-align {
+.summary-button-align {
     text-align: center;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-} */
+
+}
 
 /* footer */
 .footer {
