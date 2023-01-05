@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans';
+    color: #181818;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.primary-button {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header {
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.section {
+
+    margin-top: 130px;
+    text-align: center;
+    padding: 130px 155px;
+    background-color: #FFF8F3;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+/* navigation bar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 225px;
+}
+
+.nav-tittle {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.nav-bar ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar li {
+    list-style: none;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.orange-color {
+    color: #FD6E0A;
+}
+
+.nav-button {
+    height: 64px;
+    width: 150px;
+    padding: 18px 35px;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner div {
+    height: 355px;
+    width: 585px;
+    margin-left: 230px;
+}
+
+.banner-subtitle {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cv-download {
+    width: 200px;
+    height: 65px;
+}
+
+.contact {
+    color: #FD6E0A;
+    width: 160px;
+    height: 64px;
+    margin-left: 30px;
+}
+
+.banner img {
+    margin-right: 40px;
+    padding-bottom: 0;
+}
+
+/* about me */
+.max-width {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* .about-me {
+    text-align: center;
+    padding: 130px 155px;
+} */
+
+.data {
+    width: 100%;
+}
+
+.data-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.data-value {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+.data-space {
+    margin-right: 50px;
+}
+
+/* what to do */
+.what-to-do {
+    text-align: center;
+}
+
+.tools {
+    display: flex;
+
+}
+
+.sub-section {
+    width: 267px;
+    height: 377px;
+    margin: 0 auto;
+    padding: 33px;
+}
+
+.sub-section>img {
+    border-image-width: 44px;
+}
+
+.tools-description>h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.icon-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* summary */
+.summary-title {
+    text-align: center;
+    margin-bottom: 115px;
+}
+
+.full-summary {
+    margin-bottom: 50px;
+}
+
+.summary-subtitle {
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.summary-qualification {
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.summary-institution {
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.summary-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.summary-divide {
+    display: flex;
+}
+
+.summary-divide hr {
+    color: #757575;
+    margin: 30px 25px 30px 0;
+}
+
+.summary-button {
+    text-align: center;
+    width: 200px;
+    height: 64px;
+    padding: 18px;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    margin-top: 245px;
+    margin-bottom: 130px;
+    background-color: #FFF8F3;
+}
+
+.footer-section {
+    width: 50%;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    color: #474747;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.footer-section-2 {
+    padding-left: 100px;
+}
+
+.footer-form input {
+    border: none;
+    width: 461px;
+    height: 64px;
+    margin-bottom: 30px;
+}
+
+.footer-form textarea {
+    border: none;
+    width: 462px;
+    height: 180px;
+    margin-bottom: 15px;
+}
+
+.footer-button {
+    width: 150px;
+    height: 65px;
+}
+
+.footer-icons img {
+    margin: 0;
+    padding-right: 25px;
+}
